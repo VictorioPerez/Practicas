@@ -23,14 +23,13 @@ body{
     display: flex;
     flex-direction: row;   
 }
-.imageProduct{
-    box-shadow: 1px 0px 3px hsl(228, 12%, 48%);
-}
+
 .imgProductDesktop{
     width: 250px;
     height: 335px;
     border-top-left-radius:10px ;
     border-bottom-left-radius:10px ;
+    box-shadow: 1px 0px 3px hsl(228, 12%, 48%);
 }
 .imgProductMobile{
     display: none;
