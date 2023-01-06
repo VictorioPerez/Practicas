@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.sectionProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0px;
+}
+.containerProduct{
+    background-color: white;
+    width: 450px;
+    height: 335px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;   
+}
+.imageProduct{
+    box-shadow: 1px 0px 3px hsl(228, 12%, 48%);
+}
+.imgProduct{
+    width: 250px;
+    height: 335px;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+}
+.descriptionProduct{
+    padding: 20px;
+}
+.descriptionProduct span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.58rem;
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+}
+.descriptionProduct p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.63rem;
+    line-height: 18px;
+    padding: 8px 6px;
+        text-align: justify;
+    color: hsl(228, 12%, 48%);
+}
+.descriptionProduct h2{
+    padding: 10px 10px 10px 0px;
+    text-align: left;
+    font-family: 'Fraunces', serif;
+    line-height: 24px;
+}
+.priceProduct{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.priceProduct h5{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:line-through;
+    position: relative;
+    top: 15px;
+    right: 5px;
+    font-size: 12px;
+}
+.priceProduct h2{
+    color: hsl(158, 36%, 37%);
+}
+.buttonCart{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    width: 170px;
+    height: 36px;
+    margin: 12px 0px;
+    border: 0px;
+    border-radius: 8px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.buttonCart img{
+    position: relative;
+    top: 4px;
+    right: 5px;
+}
+.buttonCart:hover{
+    background-color: hsl(158, 23%, 16%);
+}
