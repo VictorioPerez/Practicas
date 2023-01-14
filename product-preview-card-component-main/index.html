@@ -1,44 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <title>Frontend Mentor | Product preview card component</title>
-    <link rel="stylesheet" href="style/style.css" />
-  </head>
-  <body>
-    <section class="sectionProduct">
-      <div class="containerProduct">
-        <div class="imageProduct">
-          <img
-            src="images/image-product-desktop.jpg"
-            alt="product perfume"
-            class="imgProductDesktop"
-          />
-          <img src="images/image-product-mobile.jpg" alt="product perfume" class="imgProductMobile">
-        </div>
-        <div class="descriptionProduct">
-          <span class="spanProduct">PERFUME</span>
-          <h2>Gabrielle Essence Eau De Parfum</h2>
-          <p>
-            A floral, solar and voluptuous interpretation composed by Oliver
-            Polge, Perfumer-Creator for the House of CHANEL
-          </p>
-          <div class="priceProduct">
-            <h2>$149.99</h2>
-            <h5>$169.99</h5>
-          </div>
-          <button class="buttonCart">
-            <img src="images/icon-cart.svg" alt="cart image" /> Add to Cart
-          </button>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <title>Frontend Mentor | Product preview card component</title>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+  <h1>Cursos Disponibles!</h1>
+  <section class="sectionProduct">
+    <div class="containerProductos">
+    <div class="containerProduct">
+      <div class="imageProduct">
+        <img src="images/cocteleriaclasicaprofe.webp" alt="product perfume" class="imgProductDesktop" />
+        <img src="images/cocteleriaclasicaprofe.webp" alt="product perfume" class="imgProductMobile">
       </div>
-    </section>
-  </body>
+      <div class="descriptionProduct">
+        <span class="spanProduct">COCTELERIA</span>
+        <h2>Cocteleria clasica</h2>
+        <p>
+          aprenderás todo lo necesario para preparar los mejores cocteles, desde cómo mezclar los ingredientes hasta
+          cómo presentar tus creaciones de manera impresionante.
+        </p>
+        <div class="priceProduct">
+          <h2>$24.99</h2>
+          <h5>$111.99</h5>
+        </div>
+        <button class="buttonCart">
+          <a href="https://go.hotmart.com/K78415278L" target="_blank">
+            <img src="images/icon-cart.svg" alt="cart image" /> Comprar ahora!
+          </a>
+        </button>
+      </div>
+    </div>
+    <div class="containerProduct">
+      <div class="imageProduct">
+        <img src="images/sushionlineimhh.webp" alt="product perfume" class="imgProductDesktop" />
+        <img src="images/sushionlineimhh.webp" alt="product perfume" class="imgProductMobile">
+      </div>
+      <div class="descriptionProduct">
+        <span class="spanProduct">SUSHI</span>
+        <h2>El arte del sushi</h2>
+        <p>
+          Quiero enseñar a las personas a hacer sushi en casa, con los mismos ingredientes y técnicas que uso yo mismo
+          muestro cómo preparar un rollo de sushi básico, paso a paso, dando consejos y trucos de expertos para hacerlo perfecto.
+        </p>
+        <div class="priceProduct">
+          <h2>$24.99</h2>
+          <h5>$111.99</h5>
+        </div>
+        <button class="buttonCart">
+          <a href="https://go.hotmart.com/R78404043V" target="_blank">
+            <img src="images/icon-cart.svg" alt="cart image" /> Comprar ahora!
+          </a>
+        </button>
+      </div>
+    </div>
+  </div>
+  </section>
+</body>
+
 </html>

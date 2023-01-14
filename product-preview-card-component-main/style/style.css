@@ -6,6 +6,14 @@ font-family: 'Montserrat', sans-serif; */
     margin: 0%;
     box-sizing: border-box;
 }
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
 body{
     background-color: hsl(30, 38%, 92%);
 }
@@ -15,9 +23,14 @@ body{
     align-items: center;
     margin: 120px 0px;
 }
+.containerProductos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .containerProduct{
     background-color: white;
-    width: 450px;
+    width: 550px;
     height: 335px;
     border-radius: 10px;
     display: flex;
@@ -25,7 +38,7 @@ body{
 }
 
 .imgProductDesktop{
-    width: 250px;
+    width: 300px;
     height: 335px;
     border-top-left-radius:10px ;
     border-bottom-left-radius:10px ;
@@ -71,7 +84,8 @@ body{
     font-size: 12px;
 }
 .priceProduct h2{
-    color: hsl(158, 36%, 37%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(158, 78%, 18%);
 }
 .buttonCart{
     background-color: hsl(158, 36%, 37%);
